@@ -1,27 +1,5 @@
-# buss-6002
-Assignment 1
-The Australian federal government is building a website to provide households with a tool to
-determine if installing a rooftop solar panel system is right for them. On the website, users will
-be able to enter information about their house and the website will provide an estimate of the
-possible solar power generation.
-The government collected a random sample of existing households with solar panels, including information about the households, solar panel installation and the associated solar power
-generation. The generation from the solar panels was collected from 1/1/2022 to 31/12/2022.
-The data has been assembled from a multiple sources including the customer energy retailer,
-energy distributors and solar installers. Sampling is limited to installations with:
-• a single solar panel array or multiple arrays that are oriented identically,
-• rooftop installation only.
-As a data-scientist-in-training, you will assist the project by completing a variety of EDA
-tasks.
+# 在任务1代码中，我处理了2022年的3000项太阳能板数据，进行了缺失值分析和单变量及多变量分析。通过高级统计技术和数据可视化，我探究了发电量、面板容量等变量间的关系，提升了对太阳能发电影响因素的理解，增强了我的数据处理和分析能力。 
 
-Assignment 2
-The Australian federal government is building a website to provide households with a tool to
-determine if installing a rooftop solar panel system is right for them. On the website, users will
-be able to enter information about their house and the website will provide an estimate of the
-possible solar power generation.
-The government collected a random sample of existing households with solar panels, including information about the households, solar panel installation and the associated solar power
-generation. The generation from the solar panels was collected from 1/1/2022 to 31/12/2022.
-The data has been assembled from a multiple sources including the customer energy retailer,
-energy distributors and solar installers. Sampling is limited to installations with:
-• a single solar panel array or multiple arrays that are oriented identically,
-• rooftop installation only.
-After you presented your EDA from Assignment 1, you have been given a new task: determine if a model can be built to predict Generation, that can outperform simple baselines.
+任务2代码中，我负责建立模型以预测太阳能板的发电量，旨在超越基础的基准模型。该模型的开发是为了支持澳大利亚政府提供的网站工具，帮助家庭决定是否安装屋顶太阳能系统。此项目涉及对3000个家庭太阳能板安装和发电的数据分析。 
+
+在任务2报告中，我提出了三个候选模型：线性回归模型、基于面板容量、纬度和屋顶方位等因素的模型，以及考虑屋顶方位非线性影响的高级模型。通过对这些模型的训练集估计、验证集表现和测试集上的一般化性能进行评估，确定了最佳模型。我还对模型的复杂度、偏差-方差权衡进行了深入分析，并与两个基准模型进行了对比，验证了选定模型的优越性。最后，我讨论了发现、项目的限制和未来工作的潜在方向。 
